@@ -13,7 +13,7 @@ with st.form("simplex_input"):
     b_str = st.text_area("Right-hand side (b)", "8 16 12")
     submitted = st.form_submit_button("Solve")
 
-# Grafik çizimi fonksiyonu
+
 def plot_feasible_region(A, b, c, optimal_solution):
     fig, ax = plt.subplots()
     x = np.linspace(0, 20, 400)
@@ -56,7 +56,7 @@ if submitted:
             df = tableau_to_dataframe(step)
             st.dataframe(df)
 
-        # Grafik çizimi (sadece 2 değişkenli durumlarda)
+        
         if len(c) == 2:
             st.subheader("Feasible Region Plot")
             fig = plot_feasible_region(A, b, c, solution)
