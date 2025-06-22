@@ -58,12 +58,12 @@ This project is an interactive web application that implements and visualizes [L
 
 ## Screenshots
 
-![Main Interface](screenshoots/Screenshot 2025-06-21 141024.png)
+![Main Interface](<screenshoots/Screenshot 2025-06-21 141024.png>)
 
 
-![Algorithm in Action](screenshoots/Screenshot 2025-06-21 141054.png)
+![Algorithm in Action](<screenshoots/Screenshot 2025-06-21 141054.png>)
 
-![Algorithm in Action 2](screenshoots/Screenshot 2025-06-21 141112.png)
+![Algorithm in Action 2](<screenshoots/Screenshot 2025-06-21 141112.png>)
 
 
 
